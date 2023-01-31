@@ -7,10 +7,12 @@ void formatCheck(char *time);
 
 int main(void)
 {
+    system("clear");
     long int h, m, s;
     char *timeInput = malloc(9 * sizeof(char));
     printf("Enter a time in the format hh:mm:ss.\n");
     scanf("%s", timeInput);
+    system("clear");
     
     /* for debugging
     printf("\nYou entered %s.\n", timeInput);
