@@ -13,7 +13,7 @@ int main(void)
     printf("Enter a time in the format hh:mm:ss.\n");
     scanf("%s", timeInput);
     system("clear");
-    
+
     /* for debugging
     printf("\nYou entered %s.\n", timeInput);
     */
@@ -63,7 +63,7 @@ int main(void)
         }
         if (h > 23)
         {
-            h = 1;
+            h = 0;
             s++;
         }
         sleep(1);
